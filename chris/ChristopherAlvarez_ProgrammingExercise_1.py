@@ -7,7 +7,7 @@ Each buyer can purchase up to 4 tickets, and no more than
 """
 
 
-MAX_TICKETS = 20
+MAX_TICKETS = 10
 MAX_PER_BUYER = 4
 
 
