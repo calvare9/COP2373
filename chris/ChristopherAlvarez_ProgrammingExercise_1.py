@@ -42,19 +42,19 @@ def sell_tickets():
     Manage the ticket-selling process and display final results.
     """
     remaining_tickets = MAX_TICKETS
-    total_buyers = 0
+    buyer_count = 0
 
     while remaining_tickets > 0:
         print(f"\nTickets remaining: {remaining_tickets}")
         requested = get_ticket_request(remaining_tickets)
 
         remaining_tickets -= requested
-        total_buyers += 1
+        buyer_count += 1
 
         print(f"Purchase successful! Tickets left: {remaining_tickets}")
 
     print("\nAll tickets have been sold!")
-    print(f"Total number of buyers: {total_buyers}")
+    print(f"Total number of buyers: {buyer_count}")
 
 
 def main():
