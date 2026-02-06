@@ -3,7 +3,7 @@ Cinema Ticket Pre-Sale Application
 
 This program sells a limited number of cinema tickets.
 Each buyer can purchase up to 4 tickets, and no more than
-20 tickets can be sold total.
+10 tickets can be sold total.
 """
 
 
@@ -24,7 +24,7 @@ def get_ticket_request(remaining_tickets):
     while True:
         try:
             requested = int(input(
-                f"How many tickets would you like to buy (1-{MAX_PER_BUYER})? "
+                f"What amount of tickets would you like to purchase? (1-{MAX_PER_BUYER})? "
             ))
 
             if requested < 1 or requested > MAX_PER_BUYER:
