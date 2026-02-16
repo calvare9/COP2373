@@ -1,5 +1,5 @@
 """
-Spam Detection Application - Chris A
+Spam Detection Application - Christopher Alvarez
 
 This program asks the user to enter an email message.
 It checks the message for common spam words and phrases.
